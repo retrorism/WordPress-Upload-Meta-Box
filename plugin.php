@@ -92,7 +92,7 @@ class Upload_Meta_Box {
 	 * Addings the admin JavaScript
 	 */
 	public function register_admin_scripts() {
-		wp_enqueue_script( 'umb-admin', plugins_url( 'WordPress-Upload-Meta-Box/js/admin.js' ), array( 'jquery'), UMB_VERSION );
+		wp_enqueue_script( 'umb-admin', plugins_url( 'somtijds-wp-upload-metabox/js/admin.js' ), array( 'jquery'), UMB_VERSION );
 	} // end register_scripts
 	
 	/*--------------------------------------------*
